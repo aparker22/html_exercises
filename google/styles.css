@@ -1,0 +1,38 @@
+.doodle {
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top:200px;
+}
+a {
+    margin-right: 30px;
+    color:lightgrey;
+    vertical-align: middle;
+    padding-top: 30px;
+}
+.header {
+    background-color:black;
+    font-size: 1em;
+    font-color: white;
+    padding: 3px;
+    vertical-align:top;
+}
+
+.left-align {
+    position: absolute;
+    right:20px;
+    top:10px;
+}
+
+.footer {
+    vertical-align: bottom;
+    padding-top:200px;
+
+}
+
+.black {
+    color:black;
+}
+
+
+

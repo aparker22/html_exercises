@@ -1,0 +1,75 @@
+h1 {
+    color:darkred;
+    font-family: fantasy;
+    list-style-type: none;
+    text-align: center;
+    padding:0;
+}
+ul {
+    list-style-type: none;
+    padding:0;
+
+}
+
+h4 {
+    color:darkgoldenrod;
+    text-align: center
+
+
+}
+
+body {
+    background-color:black;
+
+}
+
+img {
+    display: inline-block;
+
+}
+
+.inline {
+    display:inline-block;
+    width: 49%;
+    text-align:center;
+    box-sizing: border-box;
+    padding: 0;
+    position: relative;
+}
+
+li {
+    display:inline-block
+}
+
+.center {
+    background-image: radial-gradient(circle at center, rgba(0, 00, 0, 0.3) 0%, rgba(0, 0, 0, 0.9) ), url("gryffindor.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.title {
+    font-size: 1.5cm;
+    color:gray
+}
+
+.logo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 600px;
+}
+
+.social {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 50px;
+}
+
+.grow {
+    transition: all .2s ease-in-out;
+}
+.grow a:hover {
+    transform: scale(1.5);
+}
+
