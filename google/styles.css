@@ -2,23 +2,23 @@
     display:block;
     margin-right: auto;
     margin-left: auto;
-    padding-top:200px;
 }
 a {
     margin-right: 30px;
     color:lightgrey;
     vertical-align: middle;
-    padding-top: 30px;
 }
+
+
 .header {
     background-color:black;
     font-size: 1em;
-    font-color: white;
+    color: white;
     padding: 3px;
     vertical-align:top;
 }
 
-.left-align {
+.settingsbutton {
     position: absolute;
     right:20px;
     top:10px;
@@ -26,12 +26,29 @@ a {
 
 .footer {
     vertical-align: bottom;
-    padding-top:200px;
+    background-color: grey;
 
 }
 
 .black {
     color:black;
+}
+
+.whitespace {
+    padding: 85px;
+}
+
+.align-left {
+    display:inline-block;
+    width: 49%;
+    vertical-align: middle;
+}
+
+.align-right {
+    display: inline-block;
+    width: 49%;
+    text-align: right;
+    vertical-align: middle;
 }
 
 
