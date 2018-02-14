@@ -9,6 +9,10 @@ a {
     vertical-align: middle;
 }
 
+a:hover { 
+    background-color:palevioletred;
+}
+
 
 .header {
     background-color:black;
@@ -51,5 +55,8 @@ a {
     vertical-align: middle;
 }
 
+.form {
+    text-align:center;
 
+}
 
