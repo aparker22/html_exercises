@@ -66,10 +66,9 @@ li {
     width: 50px;
 }
 
-.grow {
-    transition: all .2s ease-in-out;
+a:hover {
+    background-color:red;
 }
-.grow a:hover {
-    transform: scale(1.5);
+img:hover {
+    background-color:red;
 }
-

@@ -1,45 +1,74 @@
+.container {
+    font-family:arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    align-content:center;
+    flex-direction: column;
+}
 .doodle {
     display:block;
     margin-right: auto;
     margin-left: auto;
 }
+
+.doodle:hover {
+    box-shadow: 0 0 10px #ccc;
+}
+
 a {
-    margin-right: 30px;
-    color:lightgrey;
-    vertical-align: middle;
+    color:black;
 }
 
 a:hover { 
     background-color:palevioletred;
 }
 
+a:visited {
+    color:black;
+}
 
 .header {
-    background-color:black;
     font-size: 1em;
-    color: white;
-    padding: 3px;
-    vertical-align:top;
+    color: black;
+    padding: 4px;
+    display: flex;
+    align-content:center;
+    align-items:center;
+    width:100%;
+}
+.header-item {
+    flex:0;
+    vertical-align: middle;
+    margin-right: 30px;
+    vertical-align: middle;
+    text-decoration:none;
+}
+.flex-item:first-child {
+    margin-left:4px;
 }
 
 .settingsbutton {
-    position: absolute;
-    right:20px;
-    top:10px;
+    flex:1;
+    vertical-align:middle;
+    text-align:right;
+    text-decoration:none;
+    margin-right: 30px;
+    padding-left: 20px;
 }
 
 .settingsbutton:hover {
-    background-color: palevioletred;
+    background-color: palevioletrede;
 }
 
 .footer {
-    vertical-align: bottom;
-    background-color: grey;
-
-}
-
-.black {
-    color:black;
+    background-color: rgba(211, 211, 211, 0.959);
+    display:flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding: 4px;
+    width: 100%;
 }
 
 .whitespace {
@@ -47,20 +76,46 @@ a:hover {
 }
 
 .align-left {
-    display:inline-block;
-    width: 49%;
-    vertical-align: middle;
+    text-align: left;
+    padding-right: 4px;
 }
 
 .align-right {
-    display: inline-block;
-    width: 49%;
     text-align: right;
-    vertical-align: middle;
+}
+
+.black {
+    color:black;
+    padding: 7px;
+}
+
+.search {
+    display: flex;
 }
 
 .form {
-    text-align:center;
+    text-align:left;
+    color:black; 
+    width: 400px;
+    height: 30px;
+    outline-color: rgb(126, 117, 117);
+    box-shadow: 5px 5px 5px grey;
+    outline-style: solid;
+    outline-width:2px;
+    font-size: 1em;
+}
 
+.searchbuttons {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.gobutton {
+    margin-top: 15px;
+    outline: 2px solid grey;
+    background:lightgray;
 }
 
