@@ -28,6 +28,10 @@ a:hover {
     top:10px;
 }
 
+.settingsbutton:hover {
+    background-color: palevioletred;
+}
+
 .footer {
     vertical-align: bottom;
     background-color: grey;
